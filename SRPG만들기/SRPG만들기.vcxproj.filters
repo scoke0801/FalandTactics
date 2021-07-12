@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{a99164c3-2fb1-48ea-8427-206d5fc20079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\헤더 파일">
+      <UniqueIdentifier>{6a3f0645-5c0c-466b-af98-dbbefa362738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\헤더 파일\기타">
+      <UniqueIdentifier>{01813109-d7d9-474b-970f-eecc615d3663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program">
+      <UniqueIdentifier>{525e7e03-b0a7-4898-83f0-27e5617bc85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체">
+      <UniqueIdentifier>{199cc900-91fa-4b4a-88e8-bfb9651dba00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\카린">
+      <UniqueIdentifier>{6a09a3a8-d81a-425f-9fb5-fbd04118d4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\리안">
+      <UniqueIdentifier>{e4c43688-5267-4c8c-8f02-42e6c746bb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\팜">
+      <UniqueIdentifier>{c80d41c3-08b7-4dfd-8eb3-b504f7d8a808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\레온">
+      <UniqueIdentifier>{4a390cd7-1eef-4642-8ce4-81f458d1576b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\마시아">
+      <UniqueIdentifier>{3bfc3251-e9fd-48b0-8786-b85c7779cbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\루시아">
+      <UniqueIdentifier>{b42e5ef6-c05a-4690-b56a-92488891a0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\숀">
+      <UniqueIdentifier>{271d3350-aecb-425a-b7ef-9d2f34db84d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\아리스">
+      <UniqueIdentifier>{41867e47-6f05-45ac-940c-906aef657136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\흑기사">
+      <UniqueIdentifier>{ff4aba7b-e2c5-458a-a4a1-886b0a76dce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\이반">
+      <UniqueIdentifier>{565083fe-9016-4c1d-9caf-0e54d8ca6740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\요정">
+      <UniqueIdentifier>{6f762e6c-b9a0-4bc8-84bb-bc4c15e49a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\고양이">
+      <UniqueIdentifier>{782090ae-04d0-4d8a-85f3-fc13aa2cde66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\카트린느">
+      <UniqueIdentifier>{35e74208-b3c0-4940-b1b5-0e8d9d8241fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\게">
+      <UniqueIdentifier>{f98457d2-2533-4187-bcaf-cb396e7643a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\늑대">
+      <UniqueIdentifier>{2b692c42-6358-49b9-a3df-5d757ff271b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\루루">
+      <UniqueIdentifier>{52ba605c-032e-46df-81d3-6d182320a492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.객체\알">
+      <UniqueIdentifier>{eefe661e-c4b2-49ca-9b89-ec551e00f60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자">
+      <UniqueIdentifier>{f475fe4d-43a8-4efa-9f31-a6fe5c8a6683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\사운드">
+      <UniqueIdentifier>{2d74f451-5f6b-42c7-ae22-77c54dc74133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\콘솔">
+      <UniqueIdentifier>{2f56bdbf-16fb-4b74-95ba-60e273275ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\이미지">
+      <UniqueIdentifier>{30510bcc-296c-4a30-a643-44d46072ce1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\이미지\애니메이션">
+      <UniqueIdentifier>{095ce837-061e-4021-9c06-99e2fe0d340d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\이미지\시스템 이미지">
+      <UniqueIdentifier>{c0efd842-9aa7-42a6-92d1-75cc15bf5fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\이미지\스킬 이미지">
+      <UniqueIdentifier>{09e30b12-18ef-425a-b7d0-1b07fb63bb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\업적">
+      <UniqueIdentifier>{5eab6b88-f991-4da7-a3d9-87657b89e8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면">
+      <UniqueIdentifier>{80f4a197-2b78-4b4f-9f45-10013b52c78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\게임오버">
+      <UniqueIdentifier>{acd24287-dd73-4854-9d72-c32d56e9314c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\타이틀">
+      <UniqueIdentifier>{f61da02f-74ea-4eec-aa9e-c376e8eccce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\1스테이지">
+      <UniqueIdentifier>{c0a780f6-1c4f-4343-b6c0-7cda72c5f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\3스테이지">
+      <UniqueIdentifier>{e49231ba-7d17-409c-8a47-e02c1b0d9ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\4스테이지">
+      <UniqueIdentifier>{91762e06-e24c-4003-97b2-5480b99299bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\2스테이지">
+      <UniqueIdentifier>{1becfa14-0832-4963-a64b-37bc944a645a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\5스테이지">
+      <UniqueIdentifier>{9f72ab96-6156-4a01-84bf-0c51f4e444b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\6스테이지">
+      <UniqueIdentifier>{3008b378-0ea8-4e00-b3f0-156d858a1006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\3.장면\유저스테이지">
+      <UniqueIdentifier>{23864a50-2907-4ec7-afb8-8ceb574a1b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스">
+      <UniqueIdentifier>{eb7bff0e-9166-49b2-8818-52738fb46978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\싱글톤">
+      <UniqueIdentifier>{a390be9e-cfab-42df-90f1-b2415a1065d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\프레임워크">
+      <UniqueIdentifier>{0a90a116-020b-433e-95d3-e7f8ec666274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\명령">
+      <UniqueIdentifier>{ea4bbc43-a7f7-4616-9bd4-7db8cf387ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\상태">
+      <UniqueIdentifier>{e5597cbc-832e-42d5-b40d-59190d589764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\길찾기">
+      <UniqueIdentifier>{74a55e59-2aad-4508-894d-79f2b37d11cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\카메라">
+      <UniqueIdentifier>{d11f5d91-c471-4edb-b13c-aa62dd4e617a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI">
+      <UniqueIdentifier>{2db2555d-f4da-40ac-9dd9-215c06d4c595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\유닛정보">
+      <UniqueIdentifier>{1b8690d4-baeb-4de7-8277-d5b830a41c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\스테이지 선택">
+      <UniqueIdentifier>{8354961c-b478-4c94-9b6d-9016a3b68c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\행동 선택">
+      <UniqueIdentifier>{5fb7a9b3-9537-40b1-a5d7-5aeb78356178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\알림말">
+      <UniqueIdentifier>{238a413b-6598-49b6-8d73-f2b7107e8883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\로그인">
+      <UniqueIdentifier>{0fe7a76e-7e55-4319-adfb-b9c3e310569b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\승리 조건">
+      <UniqueIdentifier>{1d244c25-c55f-43f1-814b-e61bbd61c255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\사용자">
+      <UniqueIdentifier>{89909866-e7be-4bb6-9ae4-443bee5125bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\5.기타">
+      <UniqueIdentifier>{b1c7af00-a26a-4b2c-ad4f-ea59cc1c09bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\4.타일">
+      <UniqueIdentifier>{79134c53-5ebe-4731-bcfb-d33db3899155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\1.인터페이스\UI\업적">
+      <UniqueIdentifier>{f5b27f38-812c-47d0-920f-9c78e088ae9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="program\2.관리자\이미지\스프라이트">
+      <UniqueIdentifier>{e7f27e76-a7e2-4580-8d6e-d2cb11469520}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="정보메모.txt" />
+    <Text Include="구현할 것.txt" />
+    <Text Include="할일.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>main\헤더 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>program\1.인터페이스\싱글톤</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>program\2.관리자\사운드</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>program\2.관리자\콘솔</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main\헤더 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>program\1.객체</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>program\3.장면</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>program\3.장면\타이틀</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>program\3.장면\게임오버</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>program\3.장면\1스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>program\1.인터페이스\명령</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>program\1.인터페이스\프레임워크</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>program\4.타일</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>program\2.관리자\이미지\애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>program\2.관리자\이미지\스프라이트</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>program\1.인터페이스\상태</Filter>
+    </ClInclude>
+    <ClInclude Include="Karin.h">
+      <Filter>program\1.객체\카린</Filter>
+    </ClInclude>
+    <ClInclude Include="YoungKarin.h">
+      <Filter>program\1.객체\카린</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>main\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>program\3.장면\2스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>program\1.인터페이스\길찾기</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhombus.h">
+      <Filter>program\1.인터페이스\길찾기</Filter>
+    </ClInclude>
+    <ClInclude Include="Index.h">
+      <Filter>program\5.기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Rian.h">
+      <Filter>program\1.객체\리안</Filter>
+    </ClInclude>
+    <ClInclude Include="Farm.h">
+      <Filter>program\1.객체\팜</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>program\1.인터페이스\카메라</Filter>
+    </ClInclude>
+    <ClInclude Include="Arl.h">
+      <Filter>program\1.객체\알</Filter>
+    </ClInclude>
+    <ClInclude Include="Reon.h">
+      <Filter>program\1.객체\레온</Filter>
+    </ClInclude>
+    <ClInclude Include="Rucia.h">
+      <Filter>program\1.객체\루시아</Filter>
+    </ClInclude>
+    <ClInclude Include="Marcia.h">
+      <Filter>program\1.객체\마시아</Filter>
+    </ClInclude>
+    <ClInclude Include="Shon.h">
+      <Filter>program\1.객체\숀</Filter>
+    </ClInclude>
+    <ClInclude Include="Aris.h">
+      <Filter>program\1.객체\아리스</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackKnight.h">
+      <Filter>program\1.객체\흑기사</Filter>
+    </ClInclude>
+    <ClInclude Include="Ivan.h">
+      <Filter>program\1.객체\이반</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruru.h">
+      <Filter>program\1.객체\루루</Filter>
+    </ClInclude>
+    <ClInclude Include="Fairy.h">
+      <Filter>program\1.객체\요정</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>program\1.객체\고양이</Filter>
+    </ClInclude>
+    <ClInclude Include="Catherine.h">
+      <Filter>program\1.객체\카트린느</Filter>
+    </ClInclude>
+    <ClInclude Include="Crab.h">
+      <Filter>program\1.객체\게</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>program\1.객체\늑대</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_UnitInfo.h">
+      <Filter>program\1.인터페이스\UI\유닛정보</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>program\1.인터페이스\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_StageSelect.h">
+      <Filter>program\1.인터페이스\UI\스테이지 선택</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_CommandSelect.h">
+      <Filter>program\1.인터페이스\UI\행동 선택</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Notice.h">
+      <Filter>program\1.인터페이스\UI\알림말</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemImage.h">
+      <Filter>program\2.관리자\이미지\시스템 이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DetailSelect.h">
+      <Filter>program\1.인터페이스\UI\행동 선택</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillImage.h">
+      <Filter>program\2.관리자\이미지\스킬 이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>program\3.장면\3스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>program\3.장면\4스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="achievement.h">
+      <Filter>program\2.관리자\업적</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5.h">
+      <Filter>program\3.장면\5스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Login.h">
+      <Filter>program\1.인터페이스\UI\로그인</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_ClearCondition.h">
+      <Filter>program\1.인터페이스\UI\승리 조건</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_UnitDeatilInfo.h">
+      <Filter>program\1.인터페이스\UI\유닛정보</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage6.h">
+      <Filter>program\3.장면\6스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="StageUser.h">
+      <Filter>program\3.장면\유저스테이지</Filter>
+    </ClInclude>
+    <ClInclude Include="profile.h">
+      <Filter>program\1.인터페이스\사용자</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Achievement.h">
+      <Filter>program\1.인터페이스\UI\업적</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main\헤더 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>program\2.관리자\사운드</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>program\2.관리자\콘솔</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>program\1.객체</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>program\3.장면</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>program\3.장면\타이틀</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>program\3.장면\게임오버</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>program\3.장면\1스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>program\1.인터페이스\명령</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp">
+      <Filter>program\1.인터페이스\프레임워크</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>program\4.타일</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>program\2.관리자\이미지\애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>program\2.관리자\이미지\스프라이트</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>program\1.인터페이스\상태</Filter>
+    </ClCompile>
+    <ClCompile Include="Karin.cpp">
+      <Filter>program\1.객체\카린</Filter>
+    </ClCompile>
+    <ClCompile Include="YoungKarin.cpp">
+      <Filter>program\1.객체\카린</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>program\3.장면\2스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>program\1.인터페이스\길찾기</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhombus.cpp">
+      <Filter>program\1.인터페이스\길찾기</Filter>
+    </ClCompile>
+    <ClCompile Include="Index.cpp">
+      <Filter>program\5.기타</Filter>
+    </ClCompile>
+    <ClCompile Include="Rian.cpp">
+      <Filter>program\1.객체\리안</Filter>
+    </ClCompile>
+    <ClCompile Include="Farm.cpp">
+      <Filter>program\1.객체\팜</Filter>
+    </ClCompile>
+    <ClCompile Include="Arl.cpp">
+      <Filter>program\1.객체\알</Filter>
+    </ClCompile>
+    <ClCompile Include="Reon.cpp">
+      <Filter>program\1.객체\레온</Filter>
+    </ClCompile>
+    <ClCompile Include="Marcia.cpp">
+      <Filter>program\1.객체\마시아</Filter>
+    </ClCompile>
+    <ClCompile Include="Rucia.cpp">
+      <Filter>program\1.객체\루시아</Filter>
+    </ClCompile>
+    <ClCompile Include="Shon.cpp">
+      <Filter>program\1.객체\숀</Filter>
+    </ClCompile>
+    <ClCompile Include="Aris.cpp">
+      <Filter>program\1.객체\아리스</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackKnight.cpp">
+      <Filter>program\1.객체\흑기사</Filter>
+    </ClCompile>
+    <ClCompile Include="Ivan.cpp">
+      <Filter>program\1.객체\이반</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruru.cpp">
+      <Filter>program\1.객체\루루</Filter>
+    </ClCompile>
+    <ClCompile Include="Fairy.cpp">
+      <Filter>program\1.객체\요정</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>program\1.객체\고양이</Filter>
+    </ClCompile>
+    <ClCompile Include="Catherine.cpp">
+      <Filter>program\1.객체\카트린느</Filter>
+    </ClCompile>
+    <ClCompile Include="Crab.cpp">
+      <Filter>program\1.객체\게</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>program\1.객체\늑대</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_UnitInfo.cpp">
+      <Filter>program\1.인터페이스\UI\유닛정보</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>program\1.인터페이스\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_StageSelect.cpp">
+      <Filter>program\1.인터페이스\UI\스테이지 선택</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_CommandSelect.cpp">
+      <Filter>program\1.인터페이스\UI\행동 선택</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Notice.cpp">
+      <Filter>program\1.인터페이스\UI\알림말</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemImage.cpp">
+      <Filter>program\2.관리자\이미지\시스템 이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DetailSelect.cpp">
+      <Filter>program\1.인터페이스\UI\행동 선택</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillImage.cpp">
+      <Filter>program\2.관리자\이미지\스킬 이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>program\3.장면\3스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>program\3.장면\4스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="achievement.cpp">
+      <Filter>program\2.관리자\업적</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5.cpp">
+      <Filter>program\3.장면\5스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Login.cpp">
+      <Filter>program\1.인터페이스\UI\로그인</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_ClearCondition.cpp">
+      <Filter>program\1.인터페이스\UI\승리 조건</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_UnitDeatilInfo.cpp">
+      <Filter>program\1.인터페이스\UI\유닛정보</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage6.cpp">
+      <Filter>program\3.장면\6스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="StageUser.cpp">
+      <Filter>program\3.장면\유저스테이지</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>program\1.인터페이스\사용자</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Achievement.cpp">
+      <Filter>program\1.인터페이스\UI\업적</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>main\헤더 파일\기타</Filter>
+    </Image>
+    <Image Include="SRPG만들기.ico">
+      <Filter>main\헤더 파일\기타</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>main\헤더 파일\기타</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SRPG만들기.rc">
+      <Filter>main\헤더 파일\기타</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

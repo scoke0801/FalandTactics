@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CUnit" Collapsed="true">
+    <Position X="15" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8VwujXCCQqXLUyRATMzWNgtAFJOiCqBhQoQWxg0IAUA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSoundManager" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAIAAgQAAQAAAABACCAACCAIAAAIAEAIAA=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CConsoleManager" Collapsed="true">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAIAAAAAAgAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScene" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAQAiCAAAAgAABAAAgAAAAEkEAQAQAQRAEBAEw=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameOverScene" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAgAAAAAAAABQAAQAAAJAAAAAAQAABAEAAAA=</HashCode>
+      <FileName>GameOver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTitleScene" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAABAAIigAAAAACABAAAgAAEIAAAAAAAAABAEQAAA=</HashCode>
+      <FileName>Title.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFrameWork" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAZACAIAigFBgAKAAhACAsBACAAAABAAAYABAEgAgQ=</HashCode>
+      <FileName>FrameWork.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage1" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAIgAAAAAgAABAAAgBAABAAAAACAAABEECIAA=</HashCode>
+      <FileName>stage1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameCommand" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAIACCAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveCommand" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQCAAASAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackCommand" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQQAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackedCommand" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAABAAIAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDefenseCommand" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkillCommand" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTile" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAgAgAAEAAYCEggEACJQqATAAYAAYAARgAgAABQ=</HashCode>
+      <FileName>Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMap" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ogBAAACAAAUAAABAQAREAAQAIAAASQBAIAAAICkBAAA=</HashCode>
+      <FileName>Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKarin" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAQAAAAAA=</HashCode>
+      <FileName>Karin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSpriteImage" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAARAAAAoAAgAAAEggAAAAgABAAAQAAAAEYAAA=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimation" Collapsed="true">
+    <Position X="14.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkwABAAAAIAAAAAAAAgAAAEAAAAAAAACAAACAAEAAhA=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CState" Collapsed="true">
+    <Position X="6.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAIAAAAAAAAAAAAEAAAAICAAQAAAACA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoveState" Collapsed="true">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAAAAAAAAAAAAAAEAAAAKAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackState" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAAAAAAAQAAAAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CYoungKarin" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQEAAA=</HashCode>
+      <FileName>YoungKarin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAAAAAgAAAAYAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Windows Kits\8.1\Include\um\gdiplustypes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRian" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgQAAAAAA=</HashCode>
+      <FileName>Rian.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFarm" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Farm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage2" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIACAAIgAAAAAgAABAAAgAAABAEAAQAAAQREECQAA=</HashCode>
+      <FileName>Stage2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBuffSkill" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIdleState" Collapsed="true">
+    <Position X="12.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAACAAAAAAAAAAAAAAAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSkillState" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAAAAAAAAAAAAIAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStopState" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAAAAAAAACAAAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDieState" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAECAAAAAAAAAAAAAAAAAAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDefenseState" Collapsed="true">
+    <Position X="9.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAAAAAAAAAAAAAAEAAAAIAAAQAQAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAttackedState" Collapsed="true">
+    <Position X="11" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAESAAAAAAAAAAAAIAAAAAAAEAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>state.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRhombus" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAQAIAAAAAAAIQAAgAAQAAAAAAAAAA=</HashCode>
+      <FileName>Rhombus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node" Collapsed="true">
+    <Position X="19.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Rhombus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIndex" Collapsed="true">
+    <Position X="22.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAQgAAAAAABABAAAAIEAABgAgAAAAA=</HashCode>
+      <FileName>Index.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CArl" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Arl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CReon" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAACAAAQAAAQAAAAAA=</HashCode>
+      <FileName>Reon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMarcia" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAEAA=</HashCode>
+      <FileName>Marcia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRucia" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAA=</HashCode>
+      <FileName>Rucia.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CShon" Collapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Shon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAris" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAEAA=</HashCode>
+      <FileName>Aris.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBlackKnight" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BlackKnight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIvan" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABQAAAAAA=</HashCode>
+      <FileName>Ivan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRuru" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Ruru.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFairy" Collapsed="true">
+    <Position X="23.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAUAAAAAA=</HashCode>
+      <FileName>Fairy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCat" Collapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Cat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCatherine" Collapsed="true">
+    <Position X="26.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Catherine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCrab" Collapsed="true">
+    <Position X="28.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAAA=</HashCode>
+      <FileName>Crab.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWolf" Collapsed="true">
+    <Position X="30.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAQ=</HashCode>
+      <FileName>Wolf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAECQIAAAQAAARAJAAEIBAgUAAAA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI_UnitInfo" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAAAgAIAEAAACAAAAADgBAAAJAAAAAAAEAABA=</HashCode>
+      <FileName>UI_UnitInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI_StageSelect" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABYAAAAIACAAAAAAgiAACABBEJAAALAgAAAAAQAAAQ=</HashCode>
+      <FileName>UI_StageSelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI_CommandSelect" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgAAAgAYAAAAADAAEIADgBAQAJAAAQAgBGAAAg=</HashCode>
+      <FileName>UI_CommandSelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSystemImage" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAJAAAAgAAQABAFAAQAAAAAAAAAAIAA=</HashCode>
+      <FileName>SystemImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI_Notice" Collapsed="true">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgEAAAAgAAABAAQCACAAABABAAEJAAAAAgAAAAAA=</HashCode>
+      <FileName>UI_Notice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI_DetailSelect" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAECAAAAgIAAAAAADAAAAIBABAEEJAAAAAgQEAAAA=</HashCode>
+      <FileName>UI_DetailSelect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_point" Collapsed="true">
+    <Position X="21" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0190_1" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\arm_neon.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_000b_1" Collapsed="true">
+    <Position X="25.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="CommandFunc" Collapsed="true">
+    <Position X="25.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SpriteState" Collapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ContiguousTile" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="__unnamed_enum_0016_2" FixedFromPoint="true">
+      <Path>
+        <Point X="31.75" Y="1.25" />
+        <Point X="31.75" Y="1.062" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Typedef Name="Camera" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="INDEX" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Index.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SoundType" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DetailSelectPhase" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI_DetailSelect.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="KeyInput" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABAAIAAAAAgAAAEAAAAAIAAAAAAIAAAAgAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0016_2" Collapsed="true">
+    <Position X="31" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitWay" Collapsed="true">
+    <Position X="27.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitName" Collapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAQAQAAAAAAEAIQAiACAAJDCAAAAAAAFACA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0016_1" Collapsed="true">
+    <Position X="29.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEABACAAAAAAAAAAAAgAAAAAAAAAACAAIAAkA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sound_Name" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAgAAAAgAABEgAQABABAAAA=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitTeam" Collapsed="true">
+    <Position X="25.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NoticePhase" Collapsed="true">
+    <Position X="29.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAABAAACAAAAAAAAAAAAIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DamageTeam" Collapsed="true">
+    <Position X="31" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>enum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_003a_1" Collapsed="true">
+    <Position X="27.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Sound.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01ba_1" Collapsed="true">
+    <Position X="32.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI_DetailSelect.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
