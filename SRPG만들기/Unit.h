@@ -14,7 +14,8 @@ public:
 	CUnit(INDEX idx = { 100, 100, 100 });					//생성자입니다.
 	virtual ~CUnit();			//소멸자입니다.
 
-public:							//상속받은 클래스에서 공통으로 사용할 기능들입니다.
+public:							
+//상속받은 클래스에서 공통으로 사용할 기능들입니다.
 //그리기 관련 함수
 	void DrawGrid(HDC hdc, Camera camera = { 0, });		//캐릭터의 충돌범위를 그립니다.
 	
@@ -33,6 +34,7 @@ public:							//상속받은 클래스에서 공통으로 사용할 기능들입니다.
 	void DrawInterval(HDC hdc, Camera camera = { 0, });
 
 	void OnDraw(HDC hdc, Camera camera = { 0, });		//출력 작업을 해줍니다.
+
 //계산 및 찾기 함수
 	int CalculateDamage(CUnit* enemy);	//적에게 입힐 대미지를 계산합니다.
 	
@@ -86,14 +88,16 @@ public:							//상속받은 클래스에서 공통으로 사용할 기능들입니다.
 
 	//유닛이 이동할 위치를 탐색합니다. (현재위치)
 	INDEX FindNextTile(std::vector <CUnit*> vecUnits, CMap* map);
+
 //초기화 함수
 	void ClearMovableTile();	//m_mapMovableTile변수의 초기화
 
-	void ClearAttackableTile();			//m_mapAttackableTile변수의 초기화
+	void ClearAttackableTile();	//m_mapAttackableTile변수의 초기화
 
 	void ClearSkillTile();
 
 	void ClearTargetUnit();
+
 //기타 기능
 	void Move(INDEX idx);		//캐릭터를 이동시킵니다.
 	void Move(POINT point);
@@ -111,7 +115,9 @@ public:							//상속받은 클래스에서 공통으로 사용할 기능들입니다.
 	void FillSkillList(HWND *list);
     //void ClearTargetUnit() { m_vecTargetUnit.clear(); }
 	//void ClearNextCommand() { m_vecNextCommand.clear(); }
-public:							//상속받은 클래스에서 재정의가 필요한 기능들입니다.
+
+public:							
+//상속받은 클래스에서 재정의가 필요한 기능들입니다.
 	virtual void OnUpdate(float timeElapsed);	//갱신 작업을 해줍니다.
 	virtual void initializeSprite() {}	//사용할 이미지에 관한 내용을 설정합니다.
 	
@@ -189,6 +195,7 @@ public:	//get, set
 	void SetStage(CScene* stage) { m_pStage = stage; }
 
 	void SetLastDamage(int damage) { m_nLastDamage = damage; }
+
 public:	//명령 및 상태에 관한 내용을 정의합니다.
 	void HandleInput(KeyInput input);
 	void HandleInput(SKillName input);
@@ -241,7 +248,8 @@ public: //유닛 정보에 대한 getter 및 setter
 
 	void ClearSkillList();
 
-public: //유닛 업적에 관한 get, set
+public:
+	//유닛 업적에 관한 get, set
 	void SetHitted(BOOL value) { m_bHit = value; }
 	BOOL GetHitted() const { return m_bHit; }
 
@@ -256,7 +264,8 @@ public: //유닛 업적에 관한 get, set
 	void IncreaseResurrectionNum() { ++m_nResurrectionNum; }
 	short GetResurrectionNum() const { return m_nResurrectionNum; }
 
-public: //효과음 추가 및 재생에 관한 내용을 정의합니다.
+public:
+	//효과음 추가 및 재생에 관한 내용을 정의합니다.
 	void SetSound(CSoundManager* sound) { m_pSound = sound; }
 	void AddEffect(char*  szPath, Sound_Name varName);
 	void PlayEffect(Sound_Name varName);
@@ -264,6 +273,7 @@ public: //효과음 추가 및 재생에 관한 내용을 정의합니다.
 	virtual void PlayAttackEffect();
 	virtual void PlayMoveEffect();
 	void PlaySkillEffect();
+
 protected:
 	POINT m_ptCurrentPos;		//unit의 좌표를 나타냅니다.(실제위치)
 	INDEX m_idxPreTileIndex;		//unit의 이전 위치를 나타냅니다.(인덱스)

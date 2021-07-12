@@ -110,6 +110,7 @@ public:
 
 	void UpdateSprite();
 	virtual BOOL CheckSkillEnd();
+
 protected:
 	POINT m_ptPos;			//그려질 위치
 

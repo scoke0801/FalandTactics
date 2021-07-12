@@ -71,7 +71,6 @@ public:
 
 /*
 공격 상태에 대한 정의를 합니다.
-
 */
 class CAttackState : public CState
 {

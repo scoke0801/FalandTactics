@@ -8,6 +8,7 @@ class CUnit;
 class CScene
 {
 public:
+	// 장면 종류 구분
 	enum class CurrentScene : int {
 		None = 0
 		, Select
@@ -40,9 +41,9 @@ public:
 	virtual BOOL OnProcessingWindowMessage(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam);
 
 	virtual CurrentScene GetCurrentScene() { return CurrentScene::None; }
-
-
-public: //getter setter
+	 
+public: 
+//getter setter
 	void SetPhase(NoticePhase phase);
 	NoticePhase GetPhase() const { return m_phase; }
 
@@ -55,27 +56,31 @@ public: //getter setter
 	CUnit* GetCurrentUnit() const { return m_pCurUnit; }
 
 public:
-	void NewTurn();
+	void NewTurn();				// 턴 새롭게 시작, 게임 객체들이 새 턴에 맞춰 행동할 수 있도록 값 수정
 
 	void SortUnitArrayUp();		//unit배열을 위치값이 위인 유닛 순으로 정렬합니다.
 
 	void SortUnitArrayDown();	//unit배열을 위치값이 아래인 유닛 순으로 정렬합니다.
 
-	BOOL ExecuteEnemyAct();
+	BOOL ExecuteEnemyAct();		// 몬스터 행동
 
-	int CalculateEnemyNum();
-	int CalculateAllyNum();
+	int CalculateEnemyNum();	// 남아있는 적팀의 수 계산
+	int CalculateAllyNum();		// 남아있는 아군의 수 계산
 
 public:
+// 승리 / 패배조건 처리를 위한 함수
 	virtual BOOL CheckGameLose();	//기본적으로 모든 아군 유닛이 죽으면 게임을 진 것으로 합니다.
 									//다른 게임 패배 조건이 있는 맵에서는 새롭게 정의가 필요합니다.
+
 	virtual BOOL CheckGameWin();	//기본적으로 모든 적군 유닛이 죽으면 게임을 이긴 것으로 합니다.
 									//다른 게임 승리 조건이 있는 맵에서는 새롭게 정의가 필요합니다.
 	virtual void CreateButton() {}
 
 public: //스테이지 전환 시 달성한 업적이 있는지 확인합니다.
 	void CheckAchievement();
-protected:			//CScene클래스와 이 클래스를 상속받는 클래스에서만 접근가능합니다.
+
+protected:			
+//CScene클래스와 이 클래스를 상속받는 클래스에서만 접근가능합니다.
 	CFrameWork* m_pFrameWork;	//장면 변경을 위해, framework를 멤버 변수로 포함합니다.
 	
 	HWND m_hWnd;				//장면이 변경된 경우 화면 갱신시키기 위한 변수입니다.
@@ -88,6 +93,7 @@ protected:
 	std::vector <CUnit*>::iterator m_iterUnit;
 	CUnit* m_pCurUnit;
 	short m_nUnitNum;		//맵 생성시의 유닛 수
+
 //기타
 	int m_nTurnCount;
 
@@ -102,8 +108,8 @@ protected:
 
 	char m_chCount;				//		
 	short m_nAlpha;
+
 //맵
 	CMap* m_map;
 	CurrentScene m_tag;
-
 };
