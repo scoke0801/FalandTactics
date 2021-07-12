@@ -78,8 +78,8 @@ C:\UsingProject\FalandTactics\SRPG만들기\Unit.cpp(1104,11): warning C4244: '�
   stage1.cpp
 C:\UsingProject\FalandTactics\SRPG만들기\stage1.cpp(220,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다.
-  50 of 2032 functions ( 2.5%) were compiled, the rest were copied from previous compilation.
+  2 of 2032 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    28 functions had inline decision re-evaluated but remain unchanged
+    30 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   SRPG만들기.vcxproj -> C:\UsingProject\FalandTactics\Release\SRPG만들기.exe
