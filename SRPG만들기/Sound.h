@@ -1,6 +1,6 @@
 #pragma once
 
-#pragma comment (lib, "fmodex_vc.lib")
+#pragma comment (lib, "fmod64_vc.lib")
 
 #include <fmod.hpp>
 #include <fmod_errors.h>
@@ -65,24 +65,25 @@ public:		//생성자, 소멸자
 	~CSoundManager();
 
 public:		//사운드 추가
-	void AddStream(char*  szPath, Sound_Name varName);	//배경음악을 추가합니다.
-	void AddSound(char*  szPath, Sound_Name varName);	//효과음을 추가합니다.
+	void AddStream(char* szPath, Sound_Name varName);	//배경음악을 추가합니다.
+	void AddSound(char* szPath, Sound_Name varName);	//효과음을 추가합니다.
 
 public:		//사운드 재생
 	void OnUpdate();					//사운드 재생이 끊기지 않도록 합니다.
 
 	void PlayBgm(Sound_Name varName);		//배경음악을 재생합니다.
 	void PlayEffect(Sound_Name varName);	//효과음을 재생합니다.
-	
+
 	void Stop();		//사운드 재생을 중지합니다.
 	void SetVolume(float volume);	//사운드의 크기를 조절합니다.
 public:		//기타
-	FMOD_SOUND* FindSound(Sound_Name key);	//해당 키 값이 이미 등록 되어 있는지를 찾습니다.
+	FMOD::Sound* FindSound(Sound_Name key);	//해당 키 값이 이미 등록 되어 있는지를 찾습니다.
 private:
 	float m_fVolume;	//사운드 재생할 때의 크기를 지정합니다.
 
-	FMOD_SYSTEM *  m_pSystem;
-	FMOD_CHANNEL * m_pChannel[SoundType::SOUND_COUNT];
+	FMOD::System* m_pSystem;
+	FMOD::Channel* m_pChannel[SoundType::SOUND_COUNT];
 
-	std::map <Sound_Name, FMOD_SOUND* > m_mapSound;
+	unsigned int    version;
+	std::map <Sound_Name, FMOD::Sound* > m_mapSound;
 };

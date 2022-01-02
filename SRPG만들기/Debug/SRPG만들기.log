@@ -1,3 +1,84 @@
-﻿  StageUser.cpp
+﻿  stdafx.cpp
+  Animation.cpp
+  Aris.cpp
+  Arl.cpp
+  Astar.cpp
+  BlackKnight.cpp
+  Cat.cpp
+  Catherine.cpp
+  Command.cpp
+  Console.cpp
+  Crab.cpp
+  Fairy.cpp
+  Farm.cpp
+  FrameWork.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\FrameWork.cpp(67,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\UsingProjects\FalandTactics\SRPG만들기\FrameWork.cpp(73,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\UsingProjects\FalandTactics\SRPG만들기\FrameWork.cpp(128,32): warning C4244: '인수': '_Rep'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Rep=double
+          ]
+C:\UsingProjects\FalandTactics\SRPG만들기\FrameWork.cpp(156,16): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\UsingProjects\FalandTactics\SRPG만들기\FrameWork.cpp(297,2): warning C4060: switch문에 'case' 또는 'default' 레이블이 없습니다.
+  GameOver.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\GameOver.cpp(54,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Index.cpp
+  Ivan.cpp
+  Karin.cpp
+  Marcia.cpp
+  Profile.cpp
+  Reon.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Rhombus.cpp
+  Rian.cpp
+  Rucia.cpp
+  Ruru.cpp
+  Scene.cpp
+  Shon.cpp
+  SkillImage.cpp
+  Sound.cpp
+  Sprite.cpp
+  Stage2.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Stage2.cpp(226,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Stage3.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Stage3.cpp(232,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Stage4.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Stage4.cpp(236,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Stage5.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Stage5.cpp(224,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Stage6.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Stage6.cpp(309,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StageUser.cpp
 C:\UsingProjects\FalandTactics\SRPG만들기\StageUser.cpp(217,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  State.cpp
+  SystemImage.cpp
+  Tile.cpp
+  Title.cpp
+  UI.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  UI_Achievement.cpp
+  UI_ClearCondition.cpp
+  UI_CommandSelect.cpp
+  UI_DetailSelect.cpp
+  UI_Login.cpp
+  UI_Notice.cpp
+  UI_StageSelect.cpp
+  UI_UnitDeatilInfo.cpp
+  UI_UnitInfo.cpp
+  Unit.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\Unit.cpp(812,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\UsingProjects\FalandTactics\SRPG만들기\Unit.cpp(1044,13): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\UsingProjects\FalandTactics\SRPG만들기\Unit.cpp(1061,13): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\UsingProjects\FalandTactics\SRPG만들기\Unit.cpp(1080,13): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\UsingProjects\FalandTactics\SRPG만들기\Unit.cpp(1104,11): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Wolf.cpp
+  YoungKarin.cpp
+  achievement.cpp
+  main.cpp
+  stage1.cpp
+C:\UsingProjects\FalandTactics\SRPG만들기\stage1.cpp(235,28): warning C4244: '=': 'short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
   SRPG만들기.vcxproj -> C:\UsingProjects\FalandTactics\Debug\SRPG만들기.exe
