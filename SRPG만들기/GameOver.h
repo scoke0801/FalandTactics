@@ -20,7 +20,6 @@ public:
 	
 	void SetTag(CurrentScene tag);
 	virtual CurrentScene GetCurretScene() { return CurrentScene::GameWin; }
-
 private:
 	CImage m_gameOverImage;		//진 경우에 사용할 이미지를 나타냅니다.
 	CImage m_imageUnit;			//이긴 경우에 사용할 도우미 이미지를 나타냅니다.

@@ -1,9 +1,5 @@
 #pragma once
 
-/*
-게임에서 사용하는 맵 데이터 배열을
-보다 편하게 관리 및 사용하기 위하여 정의한 클래스 
-*/
 class CIndex
 {
 public:

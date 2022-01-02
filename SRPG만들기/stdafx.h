@@ -67,7 +67,7 @@
 
 // 캡션 FPS 출력 여부 -------------------
 // 항상 캡션에 FPS를 출력		(0 : 비활성 | 1 : 활성)
-#define USE_CAPTIONFPS_ALWAYS	 0
+#define USE_CAPTIONFPS_ALWAYS	 1
 
 #if USE_CAPTIONFPS_ALWAYS
 #define SHOW_CAPTIONFPS 

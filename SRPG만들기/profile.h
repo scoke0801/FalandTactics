@@ -4,7 +4,6 @@
 
 /*
 사용자에 대해서 필요한 정보를 정의합니다.
-기록 정리, 업적 처리를 위한 내용들을 정의합니다.
 */
 
 
@@ -48,7 +47,6 @@ public:
 	void AddStageClear(short stageNum);	//클리어한 스테이지 등록
 
 	void AddAchieveNum();			//클리어 횟수
-
 private:
 	LPCTSTR m_szName;						//유저 이름
 	CAchievement m_achievement;				//업적

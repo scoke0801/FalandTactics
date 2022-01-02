@@ -79,6 +79,9 @@
     <Filter Include="program\2.관리자\이미지">
       <UniqueIdentifier>{30510bcc-296c-4a30-a643-44d46072ce1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\2.관리자\이미지\스프라이트">
+      <UniqueIdentifier>{e7f27e76-a7e2-4580-8d6e-d2cb11469520}</UniqueIdentifier>
+    </Filter>
     <Filter Include="program\2.관리자\이미지\애니메이션">
       <UniqueIdentifier>{095ce837-061e-4021-9c06-99e2fe0d340d}</UniqueIdentifier>
     </Filter>
@@ -174,9 +177,6 @@
     </Filter>
     <Filter Include="program\1.인터페이스\UI\업적">
       <UniqueIdentifier>{f5b27f38-812c-47d0-920f-9c78e088ae9d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\2.관리자\이미지\스프라이트">
-      <UniqueIdentifier>{e7f27e76-a7e2-4580-8d6e-d2cb11469520}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

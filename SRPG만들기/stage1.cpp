@@ -27,6 +27,11 @@ CStage1::CStage1(CFrameWork * framework, HWND hWnd, CurrentScene tag)
 	INDEX idx;
 	m_map = new CMap(_T("resource/map/요새.txt"));
 	m_map->LoadUnit(_T("resource/map/요새_유닛.txt"),&m_vecUnits);
+	/*idx = m_map->GetTilePos(10, 10);
+	idx.height = m_map->GetHeight(INDEX{ 10,10 ,0});
+	m_vecUnits.push_back(new CReon(idx));
+	m_map->SetUnitOnTile(INDEX{ 10,10, m_map->GetHeight(idx) }, m_vecUnits[0]);
+*/
 
 	for (int i = 0; i < (int)m_vecUnits.size(); ++i)
 	{
@@ -188,6 +193,10 @@ void CStage1::OnDraw(HDC hdc)
 		m_pCurUnit->DrawWayNotice(hdc, camera);
 	if (m_phase == NoticePhase::UsingSkillPhase)
 	{
+		/*delay++;
+		if (delay < 8)
+		return;*/
+
 		m_pCurUnit->DrawSkill(hdc, camera);
 		if (m_pCurUnit->CheckSkillEnd())
 		{
@@ -206,7 +215,9 @@ void CStage1::OnDraw(HDC hdc)
 }
 void CStage1::DrawIntervalScene(HDC hdc)
 {
+	//static int count = 0;
 	COLORREF removeColor = RGB(255, 0, 255);		//지울 색상
+	//static int alpha = 0;				//투명도
 
 	if (m_nAlpha <= 255)
 	{
@@ -333,6 +344,7 @@ BOOL CStage1::OnProcessingMouseMessage(HWND hWnd, UINT iMsg, WPARAM wParam, LPAR
 			UI_UnitInfo->HideUI();
 			UI_Notice->HideUI();
 
+			//SortUnitArray();
 			m_bLeftClick = FALSE;
 		}
 
@@ -547,7 +559,23 @@ BOOL CStage1::OnProcessingMouseMessage(HWND hWnd, UINT iMsg, WPARAM wParam, LPAR
 				UI_Notice->MakeUI();
 				m_phase = NoticePhase::WaitSkillPhase;	//새로 생성한 스킬 범위에 대해 재입력을 기다립니다.
 				UI_Notice->Update(NoticePhase::WaitSkillPhase);
+				//m_pCurUnit->EnterNextState();
+				//m_pCurUnit->SetNextCommand(KeyInput::Stop);
+				//m_pCurUnit->SetSkillPos(POINT{ idx.GetXPos(), idx.GetYPos() });
+				//m_phase = NoticePhase::UsingSkillPhase;
+
+				//UI_Notice->HideUI();
 			}
+			//else
+			//{    //아닌 경우
+			//	m_pCurUnit->ClearSkillTile();	//선택을 초기화합니다.
+			//	m_pCurUnit = NULL;
+
+			//	m_phase = NoticePhase::None;
+			//	UI_Notice->Update(NoticePhase::MoveNotice);
+			//	UI_Notice->HideUI();
+			//	UI_UnitInfo->HideUI();
+			//}
 		}
 		else if (m_phase == NoticePhase::WaitSkillPhase)	// 스킬 사용 확인 분기
 		{
@@ -561,6 +589,15 @@ BOOL CStage1::OnProcessingMouseMessage(HWND hWnd, UINT iMsg, WPARAM wParam, LPAR
 				UI_Notice->HideUI();
 				UI_UnitInfo->HideUI();
 			}
+			//else
+			//{												//없는 경우
+			//	m_pCurUnit->ClearSkillTile();				//선택을 초기화합니다.
+			//	m_pCurUnit = NULL;
+
+			//	m_phase = NoticePhase::None;
+			//	UI_Notice->Update(NoticePhase::MoveNotice);
+			//	UI_Notice->HideUI();
+			//}
 		}
 	}
 	return TRUE;

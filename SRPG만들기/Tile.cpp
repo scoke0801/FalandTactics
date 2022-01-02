@@ -364,6 +364,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 
@@ -380,6 +381,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 
@@ -396,6 +398,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 	}
@@ -430,6 +433,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 
@@ -446,6 +450,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 
@@ -462,6 +467,7 @@ void CMap::CheckPath(std::map <INDEX, Node*> *map, INDEX idx, Node* parent)
 					, m_vecTiles[addIdx.x][addIdx.y]->GetTilePos()
 					, m_vecTiles[addIdx.x][addIdx.y]->GetHeight()
 					, parent)));
+				//vector->push_back(addIdx);
 			}
 		}
 	}
@@ -775,8 +781,7 @@ INDEX CMap::CheckPath(CUnit* unit,INDEX start, INDEX end, int moveRange)
 	Node* node;
 	INDEX idx, last;
 	int count = 0;
-	openMap.insert(std::pair< INDEX, Node*>(start,
-		new Node(start, m_vecTiles[start.x][start.y]->GetTilePos())));
+	openMap.insert(std::pair< INDEX, Node*>(start, new Node(start, m_vecTiles[start.x][start.y]->GetTilePos())));
 	
 	while(closeMap.find(end) == closeMap.end() && count < 100)
 	{

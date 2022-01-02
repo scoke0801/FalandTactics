@@ -1,9 +1,10 @@
 #pragma once
 
-/*
-게임에서 사용하는 주요 데이터들을 enum class를 통하여 
-정의 / 정리 해두기 위한 헤더파일입니다.
-*/
+#pragma region Sound_Enum
+
+
+#pragma endregion
+
 #pragma region States_Enum
 typedef enum
 {

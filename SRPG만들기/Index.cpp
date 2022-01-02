@@ -12,15 +12,19 @@ bool CIndex::operator<(CIndex index)
 	if (y == index.y)
 	{
 		if (x <= x)
+			//return index1.x < index2.x;
 			return false;
 		else
+			//return index1.x > index2.x;
 			return true;
 	}
 	else
 	{
 		if (y <= index.y)
+			//return index1.y < index2.y;
 			return false;
 		else
+			//return index1.y > index2.y;
 			return true;
 	}
 	return false;
@@ -30,19 +34,31 @@ bool operator<(CIndex index1, CIndex index2)
 	if (index1.y == index2.y)
 	{
 		if (index1.x <= index2.x)
+			//return index1.x < index2.x;
 			return false;
 		else
+			//return index1.x > index2.x;
 			return true;
 	}
 	else
 	{
 		if (index1.y <= index2.y)
+			//return index1.y < index2.y;
 			return false;
 		else
+			//return index1.y > index2.y;
 			return true;
 	}
 	return false;
 }
+//bool CIndex::operator=(CIndex index)
+//{
+//	x = index.x;
+//	y = index.y;
+//	height = index.height;
+//
+//	return true;
+//}
 CIndex::CIndex(int x, int y, int height)
 {
 	this->x = x;
@@ -66,7 +82,8 @@ CIndex CIndex::GetIndex()			//실제값을 인덱스 값으로
 
 	returnValue.x = x / TILE_WIDTH_HALF;
 	returnValue.y = y + TILE_HEIGHT_HALF * height;
-	returnValue.y = (returnValue.y - (returnValue.x % 2) * TILE_HEIGHT_HALF) / TILE_HEIGHT; 
+	returnValue.y = (returnValue.y - (returnValue.x % 2) * TILE_HEIGHT_HALF) / TILE_HEIGHT;
+	//TILE_HEIGHT / 2 * (i % 2) + TILE_HEIGHT * j
 	return returnValue;
 }
 void CIndex::SetXIndex()
