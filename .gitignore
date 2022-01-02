@@ -33,7 +33,9 @@
 
 /ipch
 *.ipch
- 
+
+*.suo
+**/.suo 
 .vs/SRPG만들기/v16/Browse.VC.opendb
 .vs/SRPG만들기/v16/Browse.VC.db-wal
 .vs/SRPG만들기/v16/Browse.VC.db-shm
