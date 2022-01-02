@@ -164,6 +164,9 @@ void CStage4::OnDraw(HDC hdc)
 
 	else
 	{
+		m_backgoundImg.StretchBlt(hdc
+			, m_rcApp.left, m_rcApp.top, m_rcApp.right, m_rcApp.bottom
+			, 0, 0, m_backgoundImg.GetWidth(), m_backgoundImg.GetHeight());
 		if (m_pCurUnit != NULL)
 		{
 			if (m_phase == NoticePhase::AttackPhase || m_phase == NoticePhase::OnlyAttackPhase)

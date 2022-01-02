@@ -24,7 +24,7 @@ void CRhombus::Draw(HDC hdc, Camera camera)
 
 	if (!first)
 	{
-		image.Load(_T("resource/tile/system_tile.bmp"));
+		image.Load(_T("resource/tile/system_tile.png"));
 		first = TRUE;
 	}
 	image.TransparentBlt(hdc

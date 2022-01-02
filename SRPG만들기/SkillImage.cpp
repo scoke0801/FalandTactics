@@ -5,14 +5,14 @@ CSkillImage* CSkillImage::instance = NULL;
 
 CSkillImage::CSkillImage()
 {
-	m_imageBurst.Load(_T("resource/Skill/burst.bmp"));
-	m_imageAid[0].Load(_T("resource/skill/aid.bmp"));
-	m_imageAid[1].Load(_T("resource/skill/manaaid.bmp"));
-	m_imageCurse.Load(_T("resource/skill/curse.bmp"));
-	m_imageHurricane.Load(_T("resource/skill/Hurricane.bmp"));
-	m_imageThunder.Load(_T("resource/skill/thunder.bmp"));
-	m_imageResurrection.Load(_T("resource/skill/Resurrection.bmp"));
-	m_imageEdge.Load(_T("resource/skill/edge.bmp"));
+	m_imageBurst.Load(_T("resource/Skill/burst.png"));
+	m_imageAid[0].Load(_T("resource/skill/aid.png"));
+	m_imageAid[1].Load(_T("resource/skill/manaaid.png"));
+	m_imageCurse.Load(_T("resource/skill/curse.png"));
+	m_imageHurricane.Load(_T("resource/skill/Hurricane.png"));
+	m_imageThunder.Load(_T("resource/skill/thunder.png"));
+	m_imageResurrection.Load(_T("resource/skill/Resurrection.png"));
+	m_imageEdge.Load(_T("resource/skill/edge.png"));
 }
 CSkillImage* CSkillImage::GetInstance()
 {

@@ -19,6 +19,8 @@ CScene::CScene(CFrameWork * framework, HWND hWnd)
 	m_chCount = 0;
 	m_nUnitNum = 0;
 	m_nAlpha = 0;
+
+	m_backgoundImg.Load(_T("resource/map/game_background.png"));
 }
 CScene::~CScene()
 {

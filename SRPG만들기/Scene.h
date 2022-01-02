@@ -105,5 +105,5 @@ protected:
 //¸Ê
 	CMap* m_map;
 	CurrentScene m_tag;
-
+	CImage m_backgoundImg;
 };

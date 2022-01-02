@@ -21,13 +21,13 @@ void CGameOverScene::LoadImage()
 {
 	if (m_tag == CurrentScene::GameWin)
 	{
-		m_gameOverImage.Load(_T("resource/UI/StageClear_.bmp"));
+		m_gameOverImage.Load(_T("resource/UI/StageClear_.png"));
 		
-		m_imageUnit.Load(_T("resource/Unit/karin/karin_notice.bmp"));
+		m_imageUnit.Load(_T("resource/Unit/karin/karin_notice.png"));
 	}
 	else if (m_tag == CurrentScene::GameLose)
 	{
-		m_gameOverImage.Load(_T("resource/map/gamelose.bmp"));
+		m_gameOverImage.Load(_T("resource/map/gamelose.png"));
 	}
 }
 

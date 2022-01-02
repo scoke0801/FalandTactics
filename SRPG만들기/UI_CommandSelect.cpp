@@ -212,7 +212,7 @@ void CUI_CommandSelect::CreateButton(int division)
 				0, 0, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_UseSkill, hInstance, NULL);
 
-			image.Load(_T("resource/Button/UseSkill_.bmp"));
+			image.Load(_T("resource/Button/UseSkill_.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonUseSkill, BM_SETIMAGE, 0, (LPARAM)hBmp);
 			++height;
@@ -224,7 +224,7 @@ void CUI_CommandSelect::CreateButton(int division)
 		, 200, 30,
 		hUi, (HMENU)IDC_BUTTON_Show, hInstance, NULL);
 
-	image.Load(_T("resource/Button/Show_.bmp"));
+	image.Load(_T("resource/Button/Show_.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonShow, BM_SETIMAGE, 0, (LPARAM)hBmp);
 	++height;
@@ -236,7 +236,7 @@ void CUI_CommandSelect::CreateButton(int division)
 		, 200, 30,
 		hUi, (HMENU)IDC_BUTTON_TurnEnd, hInstance, NULL);
 	
-	image.Load(_T("resource/Button/TurnEnd_.bmp"));
+	image.Load(_T("resource/Button/TurnEnd_.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonTurnEnd, BM_SETIMAGE, 0, (LPARAM)hBmp);
 	++height;
@@ -247,7 +247,7 @@ void CUI_CommandSelect::CreateButton(int division)
 		, 200, 30,
 		hUi, (HMENU)IDC_BUTTON_System, hInstance, NULL);
 	
-	image.Load(_T("resource/Button/System_.bmp"));
+	image.Load(_T("resource/Button/System_.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonSystem, BM_SETIMAGE, 0, (LPARAM)hBmp);
 }

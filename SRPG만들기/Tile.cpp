@@ -153,13 +153,13 @@ CMap::CMap(int mapSize)
 		m_vecTiles.push_back(vecTemp);
 	}
 
-	LoadTileImage(_T("resource/tile/tile_cur.bmp"));
+	LoadTileImage(_T("resource/tile/tile_cur.png"));
 	MakeMap();
 }
 
 CMap::CMap(LPCTSTR szPath)
 {
-	LoadTileImage(_T("resource/tile/tile_cur.bmp"));
+	LoadTileImage(_T("resource/tile/tile_cur.png"));
 	MakeMap(szPath);
 }
 

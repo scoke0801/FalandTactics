@@ -10,9 +10,9 @@ CUI_UnitDetailInfo::CUI_UnitDetailInfo(HWND hWnd, HINSTANCE hInstance)
 
 //RegisterUI();
 
-	m_unitImage.Load(_T("resource/Unit/unit_all.bmp"));
-	m_backImage.Load(_T("resource/UI/unit_info_background.bmp"));
-	m_hpMpImage.Load(_T("resource/UI/HP_MP.bmp"));
+	m_unitImage.Load(_T("resource/Unit/unit_all.png"));
+	m_backImage.Load(_T("resource/UI/unit_info_background.png"));
+	m_hpMpImage.Load(_T("resource/UI/HP_MP.png"));
 
 	m_pUnit = NULL;
 	m_phase = UnitInfoPhase::None;
@@ -117,7 +117,7 @@ void CUI_UnitDetailInfo::CreateButton()
 		, 200, 30,
 		hUi, (HMENU)IDC_BUTTON_UnitStat, hInstance, NULL);
 	
-	image.Load(_T("resource/UI/stat.bmp"));
+	image.Load(_T("resource/UI/stat.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonStat, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -126,7 +126,7 @@ void CUI_UnitDetailInfo::CreateButton()
 		200, 0
 		, 200, 30,
 		hUi, (HMENU)IDC_BUTTON_UnitSkill, hInstance, NULL);
-	image.Load(_T("resource/UI/skill.bmp"));
+	image.Load(_T("resource/UI/skill.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonSkill, BM_SETIMAGE, 0, (LPARAM)hBmp);
 }
@@ -163,7 +163,7 @@ void CUI_UnitDetailInfo::DrawUnit(HDC hdc)
 	int imagePos = (int)m_pUnit->GetUnitName();
 	
 	if(m_imageBack.IsNull())
-		m_imageBack.Load(_T("resource/UI/background.bmp"));
+		m_imageBack.Load(_T("resource/UI/background.png"));
 	m_imageBack.StretchBlt(hdc, 0, 30, 400, 470
 		, 0, 0, 400, 470, SRCCOPY);
 	if (m_phase == UnitInfoPhase::None)

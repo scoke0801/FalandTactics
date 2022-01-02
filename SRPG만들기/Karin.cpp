@@ -5,21 +5,21 @@ CKarin::CKarin(INDEX idx )
 	: CUnit(idx)
 {
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_stop, new CAnimation(_T("resource/unit/karin/karin_stand.bmp"), 1, 4, 0, 1)));
+		(SpriteState::state_stop, new CAnimation(_T("resource/unit/karin/karin_stand.png"), 1, 4, 0, 1)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_idle, new CAnimation(_T("resource/unit/karin/karin_idle.bmp"), 3, 4, 0, 3, 0, 12)));
+		(SpriteState::state_idle, new CAnimation(_T("resource/unit/karin/karin_idle.png"), 3, 4, 0, 3, 0, 12)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_move, new CAnimation(_T("resource/unit/karin/karin_move.bmp"), 4, 4, 0, 4)));
+		(SpriteState::state_move, new CAnimation(_T("resource/unit/karin/karin_move.png"), 4, 4, 0, 4)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_attack, new CAnimation(_T("resource/unit/karin/karin_attack.bmp"), 9, 4, 0, 9)));
+		(SpriteState::state_attack, new CAnimation(_T("resource/unit/karin/karin_attack.png"), 9, 4, 0, 9)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_attacked, new CAnimation(_T("resource/unit/karin/karin_attacked.bmp"), 2, 4, 1, 2, 1, 35)));
+		(SpriteState::state_attacked, new CAnimation(_T("resource/unit/karin/karin_attacked.png"), 2, 4, 1, 2, 1, 35)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_defense, new CAnimation(_T("resource/unit/karin/karin_defense.bmp"), 1, 4, 0, 1)));
+		(SpriteState::state_defense, new CAnimation(_T("resource/unit/karin/karin_defense.png"), 1, 4, 0, 1)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_die, new CAnimation(_T("resource/unit/karin/karin_die.bmp"), 1, 4, 0, 1)));
+		(SpriteState::state_die, new CAnimation(_T("resource/unit/karin/karin_die.png"), 1, 4, 0, 1)));
 	m_mapSprite.insert(std::pair <SpriteState, CAnimation* >
-		(SpriteState::state_skill, new CAnimation(_T("resource/unit/karin/karin_skill.bmp"), 11, 4, 0, 11, 6)));
+		(SpriteState::state_skill, new CAnimation(_T("resource/unit/karin/karin_skill.png"), 11, 4, 0, 11, 6)));
 
 	m_pCurSprite = m_mapSprite.find(SpriteState::state_idle)->second;
 	m_pState = new CIdleState(this);

@@ -86,7 +86,7 @@ void CUI_StageSelect::MakeButtonUI()
 		m_rcRect.right / 8 * 1, m_rcRect.bottom - 75, m_rcRect.right / 4 * 1, 75,
 		hWnd, (HMENU)IDC_BUTTON_SelectStage, m_pFrameWork->GetHINSTANCE(), NULL);
 	
-	image.Load(_T("resource/button/SelectStage.bmp"));
+	image.Load(_T("resource/button/SelectStage.png"));
 	hBmp = image.Detach();
 	SendMessage(*m_buttonSelectStage, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -95,7 +95,7 @@ void CUI_StageSelect::MakeButtonUI()
 		m_rcRect.right / 8 * 3, m_rcRect.bottom - 75, m_rcRect.right / 4 * 1, 75,
 		hWnd, (HMENU)IDC_BUTTON_LoadStage, m_pFrameWork->GetHINSTANCE(), NULL);
 	
-	image.Load(_T("resource/button/LoadStage.bmp"));
+	image.Load(_T("resource/button/LoadStage.png"));
 	hBmp = image.Detach();
 	SendMessage(*m_buttonLoadStage, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -103,7 +103,7 @@ void CUI_StageSelect::MakeButtonUI()
 		WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | BS_BITMAP,
 		m_rcRect.right / 8 * 5, m_rcRect.bottom - 75, m_rcRect.right / 4 * 1, 75,
 		hWnd, (HMENU)IDC_BUTTON_EndGame, m_pFrameWork->GetHINSTANCE(), NULL);
-	image.Load(_T("resource/button/EndGame.bmp"));
+	image.Load(_T("resource/button/EndGame.png"));
 	hBmp = image.Detach();
 	SendMessage(*m_buttonEndGame, BM_SETIMAGE, 0, (LPARAM)hBmp);
 	/*SendMessage(*m_buttonSelectStage, WM_SETFONT, (WPARAM)m_font, MAKELPARAM(TRUE, 0));

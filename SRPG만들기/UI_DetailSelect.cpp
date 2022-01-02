@@ -194,7 +194,7 @@ void CUI_DetailSelect::CreateButton()
 				WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | BS_BITMAP,
 				0, 0, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_UnitList, hInstance, NULL);
-			image.Load(_T("resource/Button/UnitList.bmp"));
+			image.Load(_T("resource/Button/UnitList.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonUnitList, BM_SETIMAGE, 0, (LPARAM)hBmp);
 			height++;
@@ -203,7 +203,7 @@ void CUI_DetailSelect::CreateButton()
 			WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | BS_BITMAP,
 			0, 30 * height, 200, 30,
 			hUi, (HMENU)IDC_BUTTON_ClearCondition, hInstance, NULL);
-		image.Load(_T("resource/Button/ClearCondition.bmp"));
+		image.Load(_T("resource/Button/ClearCondition.png"));
 		hBmp = image.Detach();
 		SendMessage(m_buttonClearCondition, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -219,7 +219,7 @@ void CUI_DetailSelect::CreateButton()
 			WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | BS_BITMAP,
 			0, 0, 200, 30,
 			hUi, (HMENU)IDC_BUTTON_StageChange, hInstance, NULL);
-		image.Load(_T("resource/Button/StageChange.bmp"));
+		image.Load(_T("resource/Button/StageChange.png"));
 		hBmp = image.Detach();
 		SendMessage(m_buttonStageChange, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -227,7 +227,7 @@ void CUI_DetailSelect::CreateButton()
 			WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | BS_BITMAP,
 			0, 30, 200, 30,
 			hUi, (HMENU)IDC_BUTTON_GameEnd, hInstance, NULL);
-		image.Load(_T("resource/Button/GameEnd_Small.bmp"));
+		image.Load(_T("resource/Button/GameEnd_Small.png"));
 		hBmp = image.Detach();
 		SendMessage(m_buttonGameEnd, BM_SETIMAGE, 0, (LPARAM)hBmp);
 	}
@@ -249,7 +249,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Explosion, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Explosion.bmp"));
+			image.Load(_T("resource/button/Explosion.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -260,7 +260,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_FlameBurst, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/FlameBurst.bmp"));
+			image.Load(_T("resource/button/FlameBurst.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -271,7 +271,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Aid, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/aid.bmp"));
+			image.Load(_T("resource/button/aid.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -282,7 +282,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_ManaAid, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/ManaAid.bmp"));
+			image.Load(_T("resource/button/ManaAid.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -293,7 +293,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Mercy, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Mercy.bmp"));
+			image.Load(_T("resource/button/Mercy.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -304,7 +304,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Resurrection, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Resurrection.bmp"));
+			image.Load(_T("resource/button/Resurrection.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -315,7 +315,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Sacrifice, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Sacrifice.bmp"));
+			image.Load(_T("resource/button/Sacrifice.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -326,7 +326,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Edge, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Edge.bmp"));
+			image.Load(_T("resource/button/Edge.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -337,7 +337,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_EarthQuake, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/EarthQuake.bmp"));
+			image.Load(_T("resource/button/EarthQuake.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -348,7 +348,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Curse, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Curse.bmp"));
+			image.Load(_T("resource/button/Curse.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -359,7 +359,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_EvillEye, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/EvillEye.bmp"));
+			image.Load(_T("resource/button/EvillEye.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -370,7 +370,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Thunder, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Thunder.bmp"));
+			image.Load(_T("resource/button/Thunder.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -381,7 +381,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_ThunderFlare, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/ThunderFlare.bmp"));
+			image.Load(_T("resource/button/ThunderFlare.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -393,7 +393,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_Hurricane, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/Hurricane.bmp"));
+			image.Load(_T("resource/button/Hurricane.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}
@@ -404,7 +404,7 @@ void CUI_DetailSelect::CreateButton()
 				0, 30 * count, 200, 30,
 				hUi, (HMENU)IDC_BUTTON_WindBlast, hInstance, NULL)
 				);
-			image.Load(_T("resource/button/WindBlast.bmp"));
+			image.Load(_T("resource/button/WindBlast.png"));
 			hBmp = image.Detach();
 			SendMessage(m_buttonSkill[count++], BM_SETIMAGE, 0, (LPARAM)hBmp);
 		}

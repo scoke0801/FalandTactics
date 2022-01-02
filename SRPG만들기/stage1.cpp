@@ -26,7 +26,8 @@ CStage1::CStage1(CFrameWork * framework, HWND hWnd, CurrentScene tag)
 {
 	INDEX idx;
 	m_map = new CMap(_T("resource/map/¿ä»õ.txt"));
-	m_map->LoadUnit(_T("resource/map/¿ä»õ_À¯´Ö.txt"),&m_vecUnits);
+	m_map->LoadUnit(_T("resource/map/¿ä»õ_À¯´Ö.txt"),&m_vecUnits);	
+
 	/*idx = m_map->GetTilePos(10, 10);
 	idx.height = m_map->GetHeight(INDEX{ 10,10 ,0});
 	m_vecUnits.push_back(new CReon(idx));
@@ -164,6 +165,9 @@ void CStage1::OnDraw(HDC hdc)
 
 	else
 	{
+		m_backgoundImg.StretchBlt(hdc
+			, m_rcApp.left, m_rcApp.top, m_rcApp.right, m_rcApp.bottom
+			, 0, 0, m_backgoundImg.GetWidth(), m_backgoundImg.GetHeight()); 
 		if (m_pCurUnit != NULL)
 		{
 			if (m_phase == NoticePhase::AttackPhase || m_phase == NoticePhase::OnlyAttackPhase)

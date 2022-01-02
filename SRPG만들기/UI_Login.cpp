@@ -9,10 +9,10 @@ CUI_Login::CUI_Login(HWND hWnd, HINSTANCE hInstance)
 	szWindowClass = _T("Login_Class");
 	szWindowTitle = _T("로그인");
 
-	m_imageBack.Load(_T("resource/UI/Login_Back.bmp"));
+	m_imageBack.Load(_T("resource/UI/Login_Back.png"));
 	//RegisterUI();
 
-	//m_imageNoticeBox.Load(_T("resource/UI/phase1_.bmp"));
+	//m_imageNoticeBox.Load(_T("resource/UI/phase1_.png"));
 }
 CUI_Login::~CUI_Login()
 {
@@ -114,7 +114,7 @@ void CUI_Login::CreateButton()
 	DestroyWindow(m_editName);
 	DestroyWindow(m_buttonDefault);
 
-	image.Load(_T("resource/UI/input.bmp"));
+	image.Load(_T("resource/UI/input.png"));
 	hBmp = image.Detach();
 
 	m_buttonInput = CreateWindow(_T("button"), _T("입력"),

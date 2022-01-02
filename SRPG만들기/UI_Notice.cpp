@@ -10,7 +10,7 @@ CUI_Notice::CUI_Notice(HWND hWnd, HINSTANCE hInstance, NoticePhase phase)
 
 	//RegisterUI();
 
-	//m_imageNoticeBox.Load(_T("resource/UI/phase1_.bmp"));
+	//m_imageNoticeBox.Load(_T("resource/UI/phase1_.png"));
 	m_nPhase = phase;
 }
 CUI_Notice::~CUI_Notice()
@@ -113,22 +113,22 @@ void CUI_Notice::DrawUI(HDC hdc)
 	switch (m_nPhase)
 	{
 	case NoticePhase::AttackPhase:
-		m_imageNoticeBox.Load(_T("resource/UI/phase_attack.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/phase_attack.png"));
 		break;
 	case NoticePhase::MoveNotice:
-		m_imageNoticeBox.Load(_T("resource/UI/phase_move.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/phase_move.png"));
 		break;
 	case NoticePhase::UnitWayPhase:
-		m_imageNoticeBox.Load(_T("resource/UI/phase_way.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/phase_way.png"));
 		break;
 	case NoticePhase::SkillPhase:
-		m_imageNoticeBox.Load(_T("resource/UI/phase_skill.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/phase_skill.png"));
 		break;
 	case NoticePhase::WaitSkillPhase:
-		m_imageNoticeBox.Load(_T("resource/UI/phase_skillWait.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/phase_skillWait.png"));
 		break;
 	case NoticePhase::ManaLack:
-		m_imageNoticeBox.Load(_T("resource/UI/Phase_manaLack.bmp"));
+		m_imageNoticeBox.Load(_T("resource/UI/Phase_manaLack.png"));
 	}
 	m_imageNoticeBox.TransparentBlt(hdc,
 		0, 0

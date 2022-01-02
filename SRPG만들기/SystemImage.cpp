@@ -5,12 +5,12 @@ CSystemImage* CSystemImage::instance = NULL;
 
 CSystemImage::CSystemImage()
 {
-	m_imageTile.Load(_T("resource/SystemImage/tile.bmp"));
-	m_imageWay.Load(_T("resource/SystemImage/way.bmp"));
-	m_imagePortal.Load(_T("resource/SystemImage/portal.bmp"));
-	m_imageDamage.Load(_T("resource/SystemImage/number.bmp"));
-	m_imageDie.Load(_T("resource/SystemImage/die.bmp"));
-	m_imageMiss.Load(_T("resource/SystemImage/miss.bmp"));
+	m_imageTile.Load(_T("resource/SystemImage/tile.png"));
+	m_imageWay.Load(_T("resource/SystemImage/way.png"));
+	m_imagePortal.Load(_T("resource/SystemImage/portal.png"));
+	m_imageDamage.Load(_T("resource/SystemImage/number.png"));
+	m_imageDie.Load(_T("resource/SystemImage/die.png"));
+	m_imageMiss.Load(_T("resource/SystemImage/miss.png"));
 }
 CSystemImage* CSystemImage::GetInstance()
 {

@@ -10,7 +10,7 @@ CUI_ClearCondition::CUI_ClearCondition(HWND hWnd, HINSTANCE hInstance, CScene::C
 
 	//RegisterUI();
 
-	//m_imageCondition.Load(_T("resource/UI/phase1_.bmp"));
+	//m_imageCondition.Load(_T("resource/UI/phase1_.png"));
 	m_phase = phase;
 }
 CUI_ClearCondition::~CUI_ClearCondition()
@@ -105,22 +105,22 @@ void CUI_ClearCondition::DrawUI(HDC hdc)
 	switch (m_phase)
 	{
 	case CScene::CurrentScene::Stage1:
-		m_imageCondition.Load(_T("resource/UI/annihilation.bmp"));
+		m_imageCondition.Load(_T("resource/UI/annihilation.png"));
 		break;
 	case CScene::CurrentScene::Stage2:
-		m_imageCondition.Load(_T("resource/UI/BossCatherine.bmp"));
+		m_imageCondition.Load(_T("resource/UI/BossCatherine.png"));
 		break;
 	case CScene::CurrentScene::Stage3:
-		m_imageCondition.Load(_T("resource/UI/BossIvan.bmp"));
+		m_imageCondition.Load(_T("resource/UI/BossIvan.png"));
 		break;
 	case CScene::CurrentScene::Stage4:
-		m_imageCondition.Load(_T("resource/UI/Move2Potal.bmp"));
+		m_imageCondition.Load(_T("resource/UI/Move2Potal.png"));
 		break;
 	case CScene::CurrentScene::Stage5:
-		m_imageCondition.Load(_T("resource/UI/annihilation.bmp"));
+		m_imageCondition.Load(_T("resource/UI/annihilation.png"));
 		break;
 	case CScene::CurrentScene::Stage6:
-		m_imageCondition.Load(_T("resource/UI/annihilation.bmp"));
+		m_imageCondition.Load(_T("resource/UI/annihilation.png"));
 		break;
 	}
 	m_imageCondition.TransparentBlt(hdc,

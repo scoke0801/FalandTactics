@@ -96,7 +96,7 @@ void CTitleScene::CreateButton()
 		m_rcApp.right / 8 * 1, m_rcApp.bottom - 75, m_rcApp.right / 4 * 1, 75,
 		m_hWnd, (HMENU)IDC_BUTTON_SelectStage, m_pFrameWork->GetHINSTANCE(), NULL);
 
-	image.Load(_T("resource/button/SelectStage.bmp"));
+	image.Load(_T("resource/button/SelectStage.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonSelectStage, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -105,7 +105,7 @@ void CTitleScene::CreateButton()
 		m_rcApp.right / 8 * 3, m_rcApp.bottom - 75, m_rcApp.right / 4 * 1, 75,
 		m_hWnd, (HMENU)IDC_BUTTON_LoadStage, m_pFrameWork->GetHINSTANCE(), NULL);
 
-	image.Load(_T("resource/button/LoadStage.bmp"));
+	image.Load(_T("resource/button/LoadStage.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonLoadStage, BM_SETIMAGE, 0, (LPARAM)hBmp);
 
@@ -114,7 +114,7 @@ void CTitleScene::CreateButton()
 		m_rcApp.right / 8 * 5, m_rcApp.bottom - 75, m_rcApp.right / 4 * 1, 75,
 		m_hWnd, (HMENU)IDC_BUTTON_EndGame, m_pFrameWork->GetHINSTANCE(), NULL);
 
-	image.Load(_T("resource/button/EndGame.bmp"));
+	image.Load(_T("resource/button/EndGame.png"));
 	hBmp = image.Detach();
 	SendMessage(m_buttonEndGame, BM_SETIMAGE, 0, (LPARAM)hBmp);
 }

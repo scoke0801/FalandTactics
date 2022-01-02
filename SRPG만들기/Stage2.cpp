@@ -145,7 +145,7 @@ void CStage2::OnDraw(HDC hdc)
 	static int delay = 0;
 
 	/*CImage image;
-	image.Load(_T("resource/background.bmp"));
+	image.Load(_T("resource/background.png"));
 	image.StretchBlt(hdc, 0, 0, CLIENT_WIDTH, CLIENT_HEIGHT
 	, 0, 0, image.GetWidth(), image.GetHeight(), SRCCOPY);*/
 
@@ -156,6 +156,9 @@ void CStage2::OnDraw(HDC hdc)
 
 	else
 	{
+		m_backgoundImg.StretchBlt(hdc
+			, m_rcApp.left, m_rcApp.top, m_rcApp.right, m_rcApp.bottom
+			, 0, 0, m_backgoundImg.GetWidth(), m_backgoundImg.GetHeight());
 		if (m_pCurUnit != NULL)
 		{
 			if (m_phase == NoticePhase::AttackPhase || m_phase == NoticePhase::OnlyAttackPhase)

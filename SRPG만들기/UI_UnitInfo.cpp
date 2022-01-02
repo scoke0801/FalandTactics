@@ -11,9 +11,9 @@ CUI_UnitInfo::CUI_UnitInfo(HWND hWnd, HINSTANCE hInstance, CUnit* unit)
 	m_pUnit = unit;
 	//RegisterUI();
 
-	m_unitImage.Load(_T("resource/Unit/unit_all.bmp"));
-	m_backImage.Load(_T("resource/UI/unit_info_background.bmp"));
-	m_hpMpImage.Load(_T("resource/UI/HP_MP.bmp"));
+	m_unitImage.Load(_T("resource/Unit/unit_all.png"));
+	m_backImage.Load(_T("resource/UI/unit_info_background.png"));
+	m_hpMpImage.Load(_T("resource/UI/HP_MP.png"));
 }
 CUI_UnitInfo::~CUI_UnitInfo()
 {
